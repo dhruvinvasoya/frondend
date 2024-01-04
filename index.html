@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="login.html" />
+    <link rel="stylesheet" href="signup.html" />
+    <link rel="stylesheet" href="newarrival.html" />
+    <link rel="stylesheet" href="productpage.html" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div onclick="hidebar()" id="bar_blur" class="bar_blur_section">
+        <div id="bar" class="bar_section">
+          <div class="logo_cancel">
+            <img src="./meterials/main_logo.png" alt="" />
+            <i onclick="hidebar()" class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="bar_categorie">
+            <div class="NewArrival"><a href="./newarrival.html">New Arrival</a></div>
+            <div class="Men">Men</div>
+            <div class="Women">Women</div>  
+            <div class="Kids">Kids</div>
+            <div class="Collection"><a href="./login.html">Login</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="main_logo">
+          <img src="./meterials/main_logo.png" alt="" />
+          <div class="line"></div>
+        </div>
+        <div class="link_text">
+          <div class="NewArrival"><a href="./newarrival.html">New Arrival</a></div>
+          <div class="Men"><a href="/">Men</a></div>
+          <div class="WOmen"><a href="/">Women</a></div>
+          <div class="KIds"><a href="/">Kids</a></div>
+          <div class="Collection"><a href="./login.html">Login</a></div>
+        </div>
+
+        <div class="link_section">
+          <div class="search">
+            <a href=""><img src="./meterials/serch_logo.png" alt="" /></a>
+          </div>
+          <div class="Wishlist">
+            <a href=""><img src="./meterials/wishlist_logo.png" alt="" /></a>
+          </div>
+          <div class="Cart">
+            <a href=""><img src="./meterials/cart_logo.png" alt="" /></a>
+          </div>
+          <div class="menu_bar">
+            <i onclick="showbar()" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+      <div class="text_section">
+        <div class="text_member">Members : Free Shipping on Orders $50+</div>
+        <div class="text_joinnow"><a href="">Join now</a></div>
+      </div>
+      <div class="main_screen">
+        <div class="Green_background"></div>
+        <div class="Wording">
+          <div class="retro_txt">RETRO LOW</div>
+          <div class="yellow_backgound">
+            <div class="voodoo"><p>VOODOO</p></div>
+          </div>
+          <div class="text">
+            The Nike Dunk Low SE Jackpot GS is a low-cut sneaker with hints of
+            grey, white, blue, and red.
+          </div>
+          <div class="shopNow">
+            <button>SHOP NOW!</button>
+          </div>
+        </div>
+        <div class="bottom_circle">
+          <img src="./meterials/main_screen_bottom_circle.png" alt="" />
+        </div>
+        <div class="big_circle">
+          <img src="./meterials/mainscreen_right_circle.png" alt="" />
+          <div class="circle1">
+            <div class="ecllipse"></div>
+          </div>
+        </div>
+        <img class="main_big_shoe" src="./meterials/upper_shoe.png" alt="" />
+        <img class="slide" src="./meterials/slide_logo.png" alt="" />
+        <div class="limited_edition">
+          <img src="./meterials/green_image_round.png" alt="" />
+          <img
+            class="edition_nike_logo"
+            src="./meterials/nike_white_logo.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="NewArrival_section">
+        <div class="upper_newArrival">
+          <h3>NEW ARRIVALS</h3>
+          <div class="next_prev">
+            <a clas href=""><i class="fa-solid fa-chevron-left"></i></a>
+            <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+          <a href="./newarrival.html"><button>See all items</button></a>
+        </div>
+        <div  id="listitem_home" class="list_items">
+        </div>
+      </div>
+      <div class="shop_collection">
+        <h3>SHOP BY COLLECTION</h3>
+        <div class="categories">
+          <div class="men_collection">
+            <div><button>MENS</button></div>
+
+            <video
+              src="./meterials/men_collection.mp4"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <div class="women_collection">
+            <div><button>WOMENS</button></div>
+
+            <video
+              src="./meterials/women_collection.mp4"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <div class="kids_collection">
+            <div><button>KIDS</button></div>
+            <video
+              src="./meterials/kids_collection.mp4"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </div>
+      </div>
+      <div class="footer_main">
+        <div class="footer_mix">
+          <div class="find_store">
+            <h3><a href="">FIND A STORE</a></h3>
+            <h3><a href="">NIKE JOURNAL</a></h3>
+            <h3><a href="">BECOME A MEMBER</a></h3>
+            <h3><a href="">FEEDBACK</a></h3>
+            <h3><a href="">PROMO CODES</a></h3>
+          </div>
+          <div class="get_help">
+            <h3>GET HELP</h3>
+            <h5><a href="">Order Status</a></h5>
+            <h5><a href="">Shipping and Delivery</a></h5>
+            <h5><a href="">Returns</a></h5>
+            <h5><a href="">Payment Options</a></h5>
+            <h5><a href="">Contact Us</a></h5>
+          </div>
+          <div class="about_nike">
+            <h3>ABOUT NIKE</h3>
+            <h5><a href="">News</a></h5>
+            <h5><a href="">Careers</a></h5>
+            <h5><a href="">Investors</a></h5>
+            <h5><a href="">Sustainability</a></h5>
+          </div>
+          <div class="join_us">
+            <h3>JOIN US</h3>
+            <h5><a href="">Nike App</a></h5>
+            <h5><a href="">Nike Run Club</a></h5>
+            <h5><a href="">Nike Training Club</a></h5>
+          </div>
+          <div class="social">
+            <h3>SOCIAL</h3>
+            <div class="icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_tiles">
+          <a href=""><i class="fa-solid fa-location-dot"></i>India</a>
+          <a href="">Guides</a>
+          <a href="">Terms of Use</a>
+          <a href="">Terms of Sale</a>
+          <a href="">Company Details</a>
+          <a href="">Modern Slavery Act</a>
+          <a href="">Privacy & Cookie Policy</a>
+          <a href="">Cookie Settings</a>
+        </div>
+        <div class="condition">
+          <h4>© Redesign by Dhruvin Vasoya | All Rights Reserved</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script>
+  const Shoes = [
+  {
+    qty: 1,
+    id: 1,
+    img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bcf29547-f309-4b27-80a8-55f482273826/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    price: Math.trunc(Math.random() * 10000),
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1b2b68a1-a8a3-4ca9-a852-ab6941d0c7a3/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/70627d9e-f933-4a14-98e3-d8056f56c577/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ac05bc4-733f-4f7b-bb4f-a8454ace880f/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8f6cdfb2-9382-4283-b899-a9958a922f54/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f14e2da8-fb86-44fd-b107-5a48f39830cc/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9e0184f1-2cf5-43f4-b345-ae8b200f6c79/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/be9f6bd1-e037-49c4-936e-a40bc7828210/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dc3ddf24-3ba6-4cee-ad81-5dc63cb911cb/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/229bf45b-47a4-4fcf-8d25-adadd81280cb/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f68c06e4-89fc-42a1-bc4a-2b449e6ff124/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0739a485-1d40-4ad3-a4f9-15335de5e1da/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91302bdf-f0da-4d71-a0b5-606f54f78cd5/pegasus-trail-4-gore-tex-waterproof-trail-running-shoes-pQ2Pzs.png",
+    title: "Nike Pegasus Trail 4 GORE-TEX",
+    detail: "Mens Waterproof Trail-Running Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 1000),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7b12d5de-4b27-41ec-b05f-fa3bdb71e4d4/pegasus-40-road-running-shoes-ztffW8.png",
+    id: 2,
+    price: Math.trunc(Math.random() * 10000),
+    title: "Nike Pegasus 40 Premium",
+    detail: "Mens Road Running Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8d530fea-4bc4-496e-a98e-878a79a3010d/pegasus-40-road-running-shoes-ztffW8.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/664f9edf-23d3-4ce0-ad29-53bd49123080/pegasus-40-road-running-shoes-ztffW8.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2bbfadb9-2a77-4b22-9c67-b8b45ae40212/pegasus-40-road-running-shoes-ztffW8.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/41f767e6-66ae-49f5-9455-44d53798f6ad/pegasus-40-road-running-shoes-ztffW8.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45bf99b9-7a44-4da8-b87e-c77f151e03e6/pegasus-40-road-running-shoes-ztffW8.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/99b381bb-faec-4eb0-8657-24c92450fb0b/pegasus-40-road-running-shoes-ztffW8.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a04c9f71-7544-48cb-885b-37e488534455/pegasus-40-road-running-shoes-ztffW8.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a7619ffa-8797-47f1-b19c-cf865e60b315/pegasus-40-road-running-shoes-ztffW8.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f24635fd-b7cd-488f-a591-0d23aa566cc9/pegasus-40-road-running-shoes-ztffW8.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45bf99b9-7a44-4da8-b87e-c77f151e03e6/pegasus-40-road-running-shoes-ztffW8.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7d77914b-ee72-4a60-9f01-1597069b0e09/pegasus-40-road-running-shoes-ztffW8.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fc9a5f5d-6054-4308-ba2e-bd5b9bbf7ee3/pegasus-40-road-running-shoes-ztffW8.png",
+    description:
+      "A springy ride for any run, the Pegs familiar, just-for-you feel returns to help you accomplish your goals. This version has the same responsiveness and neutral support you love but with improved comfort in those sensitive areas of your foot, like the arch and toes. Whether you are logging long marathon miles, squeezing in a speed session before the sun goes down or hopping into a spontaneous group jaunt, it is still the established road runner you can put your faith in, day after day, run after run. This design celebrates the Pegasus history with Swoosh logos from the Peg 1, 24, 35 and 38.",
+    color: "White/Football Grey/Bright Mandarin/Multi-Colour",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/f8840a8d-81b9-441e-8ef2-fe7d06cd8c39/image.jpg",
+    desctitle1: "The World Runs in Pegasus",
+    desc1:
+      "Celebrating its 40th lap around the sun, the Pegasus has been beloved by runners of all kinds for its lightweight dependability. Whether you are a world-record holder, a daily mile-maker or just a first-timer looking to start on the right foot, Pegasus is the shoe for everyone.",
+    descimg2:
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/39801/nike-pegasus-40-hero-19637911-720.jpg",
+    desctitle2: "A Springy Ride for Every Run",
+    desc2:
+      "Experience a cushioned, energetic ride on all your runs thanks to Zoom Air units in the heel and forefoot amid a bed of Nike React foam.A redesigned midfoot band in the upper enables a soft and secure fit, while added breathability and padding provide premium comfort.",
+    descimg3:
+      "https://cdn.runrepeat.com/storage/gallery/product_content/39801/nike-pegasus-40-forefoot-lacing-system-19637929-720.jpg",
+    desctitle3:
+      '"The Pegasus is super cool. Lightweight, fits like a glove and I love how clean the design is".',
+    desc3: "– Ja Tecson, Runner, Father, Creative",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1a4e9b52-b2b5-49f8-84b2-41133c93349f/air-max-pulse-shoes-QShhG8.png",
+    id: 3,
+    price: Math.trunc(Math.random() * 10000),
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c94b3b62-99bf-40e1-af17-3e846905d7e4/air-max-pulse-shoes-QShhG8.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/14040cee-411d-445c-b135-982bb7d732ba/air-max-pulse-shoes-QShhG8.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/739313f7-2267-40c7-9386-1513aa2d85ee/air-max-pulse-shoes-QShhG8.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2950506a-ce76-4517-a608-bb311b84168d/air-max-pulse-shoes-QShhG8.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6a480c27-2858-47ff-8586-e15f686d542b/air-max-pulse-shoes-QShhG8.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/36609043-4f75-46fe-b082-82759b5ff9a9/air-max-pulse-shoes-QShhG8.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f54ef34-9b3a-4991-ba6e-1c7cc087e809/air-max-pulse-shoes-QShhG8.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1ce76027-3e07-4a34-ad4d-568c68816030/air-max-pulse-shoes-QShhG8.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/48e0d213-1dee-4a0e-b8d6-d31e0cde7329/air-max-pulse-shoes-QShhG8.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/78113a13-e6d6-441c-846e-a5df1e78a842/air-max-pulse-shoes-QShhG8.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/739313f7-2267-40c7-9386-1513aa2d85ee/air-max-pulse-shoes-QShhG8.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2950506a-ce76-4517-a608-bb311b84168d/air-max-pulse-shoes-QShhG8.png",
+    title: "Nike Air Max Pulse",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f1f9f05c-fc8e-4759-8f8a-476afc365cd1/air-max-90-shoes-kRsBnD.png",
+    id: 4,
+    price: Math.trunc(Math.random() * 10000),
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    title: "Nike Air Max 90",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 5,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 6,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 7,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 8,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 9,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id:10,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 11,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 12,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 13,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 14,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 15,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 16,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 17,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+  {
+    qty: 1,
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ba3b10c-b59c-4c7b-af60-71276ffe1f03/elevate-3-basketball-shoes-QT43Gj.png",
+    title: "Nike Air Force Max",
+    id: 18,
+    price: 5999,
+    img2: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf503e35-4852-4546-8534-22a5cc279f67/air-max-90-shoes-kRsBnD.png",
+    img3: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/acb4a23f-e986-4243-b379-b5e357e5a9e3/air-max-90-shoes-kRsBnD.png",
+    img4: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img5: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img6: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    img7: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8acaab7-1cd2-48c3-aec8-ece063bc50b7/air-max-90-shoes-kRsBnD.png",
+    img8: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b96678b2-d7f6-452c-bc40-6a0074baeb1d/air-max-90-shoes-kRsBnD.png",
+    img9: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/680b2645-d7c2-4284-b24b-3883afae1565/air-max-90-shoes-kRsBnD.png",
+    img10:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6238fe69-65f9-4b91-b40a-9bf0112e1561/air-max-90-shoes-kRsBnD.png",
+    img11:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/087b3d21-542c-4aaa-9bc4-55d7811eb8fc/air-max-90-shoes-kRsBnD.png",
+    img12:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2cf17cf-37aa-495d-b39b-d4213be2ddf7/air-max-90-shoes-kRsBnD.png",
+    img13:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fdc5eed8-41d0-4f0e-91a0-6f0bc2d70ed0/air-max-90-shoes-kRsBnD.png",
+    detail: "Mens style Shoes",
+    tax: "incl. of taxes",
+    taxd: "(Also includes all applicable duties)",
+    charge: Math.trunc(Math.random() * 100),
+    description:
+      "The Nike Pegasus Trail 4 GORE-TEX is your running companion for those days when the weather turns. Its waterproof GORE-TEX layer helps keep your feet dry, and less rubber in the outsole creates a smooth transition from road to trail without breaking stride.",
+    color: "black/Grey",
+    descimg1:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/3702080a-ae9c-4dfb-bf92-215e99714ecb/pdp-dj7926.jpg",
+    desctitle1: "Keep the Rain Away",
+    desc1:
+      "GORE-TEX along the upper helps your feet stay dry from precipitation without sacrificing that comfortable feel of the Peg Trail. Its flexible, lightweight design helps keep out the rain when running between the wet roads and trails.",
+    descimg2:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/6ea2b833-c964-477e-9976-0cedb63b7039/pdp-dj7926.jpg",
+    desctitle2: "When the Rubber Hits the Trail",
+    desc2:
+      "Less rubber along the outsole creates a smooth transition from road to trail while preserving the full-length React midsole. The rubber outsole wraps around the front of the shoe to provide extra durability. A generative traction pattern combined with rubber in the forefoot provides extra grip for technical trails while maintaining a smooth ride for the road.",
+    descimg3:
+      "https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/59a4f6cf-e1b1-4f40-8a86-00e9d19dcf51/pdp-dj7926.jpg",
+    desctitle3: "React in the Weather",
+    desc3:
+      "Nike React technology is a lightweight, durable foam that delivers a smooth, responsive ride. Its full-length design provides stability as you brave rocky terrain.",
+  },
+];
+
+    const productpage = (productid)=>{
+
+window.location.href = `/productpage.html?id=${productid}`;
+
+}
+
+let list_home = document.getElementById('listitem_home')
+Shoes.slice(0,4).map((product)=>{
+let dunklows = document.createElement("div");
+dunklows.className = "dunklow1";
+dunklows.innerHTML = `<div onclick='productpage(${product.id})' class="dunk1img">
+  <a href=""><img src="./meterials/cart_logo.png" alt="" /></a>
+    <img  src="${product.img}" alt="" />
+  </div>
+  <h3>${product.title}</h3>
+  <h4>${product.desctitle1}</h4>
+  <p>MRP: ₹ ${product.price}.00</p>`;
+
+  list_home.appendChild(dunklows);
+
+})
+  </script>
+</html>

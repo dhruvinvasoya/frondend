@@ -1,0 +1,709 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  padding: 0 0 0 60px;
+  border-bottom: 1px #b4b4b3 solid;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_logo {
+  width: 101px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+}
+.main_logo a {
+  width: 80px;
+  height: auto 29px;
+}
+.line {
+  height: 100%;
+  border: 1px solid #b4b4b3;
+}
+
+.link_text {
+  height: 29px;
+  width: 574px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  color: #240404;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.link_text div a {
+  text-decoration: none;
+  color: #240404;
+}
+.link_text div a:hover {
+  cursor: pointer;
+  color: gray;
+  transition: ease-in 0.3s;
+}
+.link_section {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #303037;
+}
+.search {
+  width: 75px;
+  height: 70px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b4b4b3;
+}
+.Wishlist {
+  width: 75px;
+  height: 70px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px 1px 1px 0 solid #b4b4b3;
+}
+.Cart {
+  width: 75px;
+  height: 70px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b4b4b3;
+}
+.menu_bar {
+  width: 75px;
+  height: 70px;
+  padding: 0 20px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px 1px 1px 0 solid #b4b4b3;
+}
+.search a img {
+  width: 25px;
+  height: 25px;
+}
+.Wishlist a img {
+  width: 25px;
+  height: 25px;
+}
+.Cart a img {
+  width: 25px;
+  height: 25px;
+}
+.menu_bar i {
+  font-size: 25px;
+}
+.bar_section {
+  display: none;
+}
+.bar_blur_section {
+  display: none;
+}
+
+/* After header text section */
+
+.text_section {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  gap: 6px;
+  justify-content: center;
+  font-family: "Inter";
+  background-color: #000;
+}
+.text_section .text_member {
+  width: 356px;
+  height: 22px;
+  color: #ffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.text_section .text_joinnow {
+  width: 356px;
+  height: 24px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline #ffff;
+  word-wrap: break-word;
+}
+.text_joinnow a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+/* big text section */
+
+.new_arrival_text {
+  width: 100%;
+  height: 230px;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.new_arrival_text .path {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.path a,
+i {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #827070;
+  text-decoration: none;
+}
+.new_arrival_text .big_text {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+.big_text h1 {
+  line-height: 105px;
+  font-size: 120px;
+  font-family: "Anton";
+  font-weight: 500;
+}
+.big_text h3 {
+  color: #827070;
+  line-height: 75px;
+  height: 100%;
+  font-size: 80px;
+  font-family: "Anton";
+  font-weight: 500;
+}
+
+/* filter section */
+
+.filter_section {
+  width: 100%;
+  height: 60px;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_side {
+  display: flex;
+  gap: 24px;
+}
+.left_side div {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px 12px;
+  width: fit-content;
+}
+.left_side select:hover {
+  cursor: pointer;
+}
+.left_side div select {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #151414;
+  font-family: "Inter";
+  font-weight: 500;
+  background-color: transparent;
+}
+.filters {
+  width: fit-content;
+  border: 1px solid black;
+  display: none;
+}
+.filters button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  width: 70px;
+  color: #151414;
+  font-family: "Inter";
+  font-weight: 700;
+  align-items: center;
+}
+.filters button i {
+  color: #151414;
+  font-size: 15px;
+}
+.filters button:hover {
+  cursor: pointer;
+}
+.gender select {
+  width: 90px;
+}
+.category select {
+  width: 110px;
+}
+.Producttype select {
+  width: 140px;
+}
+.size select {
+  width: 65px;
+}
+.prize select {
+  width: 140px;
+}
+.color select {
+  width: 75px;
+}
+.right_side div {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px 12px;
+  width: fit-content;
+}
+.right_side select:hover {
+  cursor: pointer;
+}
+.right_side div select {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #151414;
+  font-family: "Inter";
+  font-weight: 500;
+  background-color: transparent;
+}
+option {
+  font-size: 15px;
+}
+
+/* product section */
+
+.NA_product_section {
+  width: 100%;
+  height: 100%;
+  padding: 0 60px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 30px 0;
+  gap: 60px;
+  position: relative;
+}
+.NA_first {
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  align-items: center;
+  font-family: "Inter";
+  color: #827070;
+  font-size: 20px;
+  font-weight: 500;
+}
+.NA_first button {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter";
+  color: #827070;
+  font-size: 16px;
+  font-weight: 500;
+}
+.NA_first button:hover {
+  cursor: pointer;
+  color: #000;
+}
+.list_items {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 40px;
+}
+.list_items div {
+  width: 280px;
+}
+.list_items div div {
+  width: 100%;
+  height: 267px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_items  h3 {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.list_items  h4 {
+  font-family: "Inter";
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.list_items  p {
+  font-family: "Inter";
+  font-size: 18px;
+  padding-top: 10px;
+
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.dunk1img img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  transition: ease-in 0.2s;
+}
+
+.list_items div div img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#showmore {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: "Inter";
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  right: 60px;
+  bottom: 5px;
+}
+#showmore:hover {
+  cursor: pointer;
+}
+#showless {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: "Inter";
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  right: 60px;
+  display: none;
+  bottom: 5px;
+}
+#showless:hover {
+  cursor: pointer;
+}
+
+/* footer section */
+
+.footer_main {
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_mix {
+  width: 1215px;
+  height: fit-content;
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_mix div {
+  width: 200px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+.footer_mix div a {
+  text-decoration: none;
+  color: white;
+}
+.footer_mix div h3 {
+  color: white;
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 24px;
+}
+.footer_mix div h5 {
+  color: #cac2c2;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+}
+.social .icons {
+  flex-direction: row;
+}
+.icons a i {
+  color: #cac2c2;
+  font-size: 25px;
+}
+
+.footer_tiles {
+  width: 1215px;
+  height: 30px;
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_tiles a {
+  color: #cac2c2;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+}
+.footer_tiles a i {
+  padding-right: 5px;
+}
+.condition {
+  margin: 36px 0 34px 0;
+  width: fit-content;
+  height: 20px;
+}
+.condition h4 {
+  color: #cac2c2;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 435px) {
+  .header {
+    width: 100%;
+    padding: 0 0 0 35px;
+  }
+  .main_logo {
+    width: 60px;
+    height: 21px;
+  }
+  .line {
+    display: none;
+  }
+  .link_text {
+    display: none;
+  }
+  .Wishlist {
+    display: none;
+  }
+  .search {
+    border: none;
+    width: 50px;
+  }
+  .menu_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+  }
+  .Cart {
+    width: 50px;
+    border: none;
+  }
+  .bar_blur_section {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(77, 71, 71, 0.692);
+    position: absolute;
+    z-index: 10;
+    position: fixed;
+  }
+  .bar_section {
+    display: block;
+    position: fixed;
+    width: 70%;
+    background-color: white;
+    right: -1000px;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    z-index: 100;
+  }
+  .logo_cancel {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo_cancel i {
+    font-size: 25px;
+    color: rgb(53, 52, 52);
+  }
+  .bar_categorie {
+    margin-top: 30px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bar_categorie div {
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  .bar_categorie div a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  /* big text section */
+  .new_arrival_text {
+    width: 435px;
+    height: 150px;
+    padding: 30px 35px 30px 25px;
+    gap: 24px;
+  }
+  .new_arrival_text .path {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .path a,
+  i {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 18px;
+    color: #827070;
+    text-decoration: none;
+  }
+  .big_text h1 {
+    line-height: 43px;
+    font-size: 50px;
+    height: fit-content;
+  }
+  .big_text h3 {
+    line-height: 25px;
+    font-size: 25px;
+  }
+  /* fiter_section */
+
+  .filter_section {
+    width: 435px;
+    padding: 30px 35px 30px 25px;
+  }
+  .right_side div select {
+    outline: none;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    color: #151414;
+    font-family: "Inter";
+    font-weight: 700;
+    background-color: transparent;
+  }
+  .right_side div select option {
+    font-size: 10px;
+  }
+  .left_side div {
+    display: none;
+  }
+  .filters {
+    display: block !important;
+  }
+
+  /* product _section */
+  .NA_product_section {
+    width: 435px;
+    padding: 0 35px 0 25px;
+    height: fit-content;
+    gap: 30px;
+  }
+
+  .list_items {
+    grid-template-columns: repeat(2, auto);
+    height: 100%;
+    gap: 7px;
+  }
+  .dunklow1 {
+    width: 182px !important;
+    height: 195px;
+  }
+  .dunk1img {
+    width: 100% !important;
+    height: 70% !important;
+  }
+  .dunk1img img {
+    width: 80%;
+  }
+
+  .list_items div h3 {
+    width: 100%;
+    font-size: 11px;
+
+    padding: 0 !important;
+  }
+  .list_items div h4 {
+    font-family: "Inter";
+    padding: 0;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+  }
+  .list_items div p {
+    font-family: "Inter";
+    font-size: 10px;
+    padding-top: 0;
+    line-height: 15px;
+    font-weight: 600;
+  }
+  #showmore {
+    font-size: 10px;
+    height: 40px;
+    width: 80px;
+    right: 35px;
+  }
+  #showless {
+    font-size: 10px;
+    display: none;
+    height: 40px;
+    width: 80px;
+    right: 35px;
+  }
+  /* footer section */
+  .footer_main {
+    width: 100%;
+  }
+  .footer_mix {
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer_mix div {
+    width: 100%;
+
+    gap: 10px;
+  }
+  .find_store {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+  }
+  .footer_mix div h3 {
+    color: white;
+    font-family: "Anton";
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .footer_tiles {
+    display: none;
+  }
+}

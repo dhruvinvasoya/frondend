@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login_main">
+      <div onclick="hidebar()" id="bar_blur" class="bar_blur_section">
+        <div id="bar" class="bar_section">
+          <div class="logo_cancel">
+            <img src="./meterials/main_logo.png" alt="" />
+            <i onclick="hidebar()" class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="bar_categorie">
+            <div class="Home"><a href="./index.html">Home</a></div>
+            <div class="Men">Men</div>
+            <div class="Women">Women</div>
+            <div class="Kids">Kids</div>
+            <div class="sneakers"><a href="">Sneakers</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="main_logo">
+          <a href="./index.html"><img src="./meterials/main_logo.png" alt="" /></a>
+          
+          <div class="line"></div>
+        </div>
+        <div class="link_text">
+          <div class="Collection"><a href="./index.html">Home</a></div>
+          <div class="Men">Men</div>
+          <div class="Women">Women</div>
+          <div class="Kids">Kids</div>
+          <div class="sneakers"><a href="">Sneakers</a></div>
+        </div>
+        <div class="link_section">
+          <div class="search">
+            <a href=""><img src="./meterials/serch_logo.png" alt="" /></a>
+          </div>
+          <div class="Wishlist">
+            <a href=""><img src="./meterials/wishlist_logo.png" alt="" /></a>
+          </div>
+          <div class="Cart">
+            <a href=""><img src="./meterials/cart_logo.png" alt="" /></a>
+          </div>
+          <div class="menu_bar">
+            <i onclick="showbar()" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+      <div class="login_form">
+        <div class="logo_img">
+          <img src="./meterials/main_logo.png" alt="" />
+        </div>
+        <div class="form_text">YOUR ACCOUNT FOR EVERYTHING NIKE</div>
+        <form>
+          <input id="email" class="email" type="email"  placeholder="Email Address" />
+          <input id="password" class="password" type="password" placeholder="Password" />
+          <div class="checkbox">  
+            <div>
+                <input type="checkbox" />
+                <p>Keep me signed in</p>
+            </div>
+            <a href="">Forgotten your password?</a>
+          </div>
+          <div class="login_policy">By logging in, you agree to Nike's Privacy Policy and Terms of Use.</div>
+          <button id="submitdata">SIGN IN</button>
+          <div class="login_member">
+            <p>Not a Member?</p>
+            <a href="./signup.html">Join Us.</a>
+          </div>
+        </form>
+      </div>
+      <div class="footer_main">
+        <div class="footer_mix">
+          <div class="find_store">
+            <h3> <a href="">FIND A STORE</a></h3>
+            <h3> <a href="">NIKE JOURNAL</a></h3>
+            <h3> <a href="">BECOME A MEMBER</a></h3>
+            <h3> <a href="">FEEDBACK</a></h3>
+            <h3> <a href="">PROMO CODES</a></h3>
+          </div>
+          <div class="get_help">
+            <h3>GET HELP</h3>
+            <h5><a href="">Order Status</a></h5>
+            <h5><a href="">Shipping and Delivery</a></h5>
+            <h5><a href="">Returns</a></h5>
+            <h5><a href="">Payment Options</a></h5>
+            <h5><a href="">Contact Us</a></h5>
+          </div>
+          <div class="about_nike">
+            <h3>ABOUT NIKE</h3>
+            <h5><a href="">News</a></h5>
+            <h5><a href="">Careers</a></h5>
+            <h5><a href="">Investors</a></h5>
+            <h5><a href="">Sustainability</a></h5>
+          </div>
+          <div class="join_us">
+            <h3>JOIN US</h3>
+            <h5><a href="">Nike App</a></h5>
+            <h5><a href="">Nike Run Club</a></h5>
+            <h5><a href="">Nike Training Club</a></h5>
+          </div>
+          <div class="social">
+            <h3>SOCIAL</h3>
+           <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+           </div>
+          </div>
+        </div>
+        <div class="footer_tiles">
+          <a href=""><i class="fa-solid fa-location-dot"></i>India</a>
+          <a href="">Guides</a>
+          <a href="">Terms of Use</a>
+          <a href="">Terms of Sale</a>
+          <a href="">Company Details</a>
+          <a href="">Modern Slavery Act</a>
+          <a href="">Privacy & Cookie Policy</a>
+          <a href="">Cookie Settings</a>
+        </div>
+        <div class="condition">
+          <h4>© Redesign by Dhruvin Vasoya | All Rights Reserved</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
